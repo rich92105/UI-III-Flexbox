@@ -178,41 +178,81 @@ padding: 0px;
 	display: flex;
 }
 
-#copyright {
+.copyright {
 	
-	margin-left: 400px
+	justify-content: center;
 }
 /* SERVICES PAGE CODE STARTS HERE */
+
 .services {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	margin-left: 40px;
+	padding-right: 10px;
+	
+	padding-bottom: 50px;
+
+}	
+.container-block {
+
+	max-width: 1000px;
+	border: solid green 4px;
+	padding: 20px 20px;
+	
 }
 
 .services-body{
-	
 	display: flex;
-	flex-direction: column;
 	flex-wrap: wrap;
-	width: 1000px;
+	justify-content: space-around;
+	border-top: solid black;
+	border-bottom: solid black;
+	padding-top: 30px;
+	padding-bottom: 50px;
 	margin: 0 auto;
-	border: 1px solid red; 
 	
+}
+.services-header-img {
+	
+	display: inline-block;
+	margin-left: 40px;	
+}
+.services-boxes {
+	border: solid black 1px;
+	width: 400px;
+	margin: 2% 0;
+	background-color:  #F5F5F5;
+	padding: 15px;
+
+}
+
+.button{
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 15px 0px 10px 10px;
+	padding: 5px;
+	background-color:  #F5F5F5;
 }
 .fun-facts {
 	
-	display: flex;
+display: flex;
 flex-direction: row;
-width: 1000px;
-margin-left: 200px;
-/*	flex-wrap: wrap;
-	width: 1000px;
+padding-top: 50px;
+/* width: 1000px;margin-left: 200px; */
+
+flex-wrap: wrap;
+	/* width: 1000px;
 	justify-content: center;
-	margin-left: 195px;*/
+	margin-left: 195px; */
 }
 .cool-list {
 	display:flex;
 	flex-direction: column;
 	width: 500px;
-	border: solid red 4px;
+	
 }
+.copyright2 {
+	display: inline-block;
+	margin-left: 350px;
+	padding: 100px 0px 50px 0px;
+	
+
