@@ -169,15 +169,42 @@ padding: 0px;
 }
 
 .section-text {
-/*	border: solid red 4px;
+
 	display: flex;
-*/
+
 }
 .section-block1 {
-	border: solid blue 4px;
+
 	display: flex;
 }
 
 #copyright {
 	
 	margin-left: 400px
+}
+/* SERVICES PAGE CODE STARTS HERE */
+.services {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.services-body{
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid red; 
+	
+}
+.fun-facts {
+	border: solid red 4px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 1000px;
+	justify-content: center;
+	margin-left: 200px;
+}
